@@ -15,8 +15,8 @@ function chat(prompt){
   const payload = {
     "model": "text-davinci-003",
     "prompt": prompt,
-    "temperature": 0.7,
-    "max_tokens": 256
+    "temperature": 0.5,
+    "max_tokens": 2048
   }
 
   const options = {
